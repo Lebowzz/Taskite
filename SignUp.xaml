@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskiteApp.SignUp"
+             Title="SignUp">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <HorizontalStackLayout HeightRequest="130"
+                                   BackgroundColor="{Binding Source={StaticResource BackgroundWhite}}" >
+
+                <Image Source="bluelogo.png"
+                       WidthRequest="43" />
+
+                <Label Text="Taskite" 
+                       TextColor="{Binding Source={StaticResource PrimaryBlue}}"/>
+
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
